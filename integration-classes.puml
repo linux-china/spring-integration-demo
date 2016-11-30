@@ -1,0 +1,42 @@
+@startuml
+
+class Message {
+   MessageHeaders headers;
+   Object payload;
+}
+
+interface Channel {
+   ChannelInterceptorList interceptors
+}
+
+package "endpoints" {
+   interface Transformer {
+      Object transform(Object)
+   }
+
+   interface Filter {
+      boolean filter(GenericSelector)
+   }
+
+   interface Router {
+      MessageRouter route(Message)
+   }
+
+   interface Splitter {
+
+   }
+
+   interface Aggregator {
+
+   }
+
+   interface ServiceActivator {
+      void handle(Message message)
+   }
+
+   interface ChannelAdapter {
+      MessageChannel channel
+   }
+}
+
+@enduml
