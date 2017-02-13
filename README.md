@@ -14,12 +14,14 @@ Spring Integration
 ### Core classes
 
 #### message
+
 * MessageSource: source of  Messages that can be polled,such as ftp, database, nosql
 * MessageHandler: Contract for handling message
 * MessagingTemplate: message template
 * MessageBuilder: message builder
 
 #### Channel
+
 * MessageChannel: Defines methods for sending messages
 * PollableChannel: A  MessageChannel from which messages may be actively received through polling
 * SubscribableChannel: A MessageChannel that maintains a registry of subscribers and invokes them to handle messages sent through this channel.
