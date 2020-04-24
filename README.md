@@ -1,4 +1,5 @@
-Spring Integration
+Spring Integration Demo
+=======================
 
 ### Message endpoints
 
@@ -31,3 +32,7 @@ Spring Integration
 * RendezvousChannel: Useful for implementing request-reply operations
 * ChannelInterceptor: channel interceptor
 * MessageChannels: builder of channel
+
+# References
+
+* Spring Tips: The Spring Integration Kotlin DSL https://www.youtube.com/watch?v=1llAwgOKjTY&feature=emb_title
