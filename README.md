@@ -33,6 +33,17 @@ Spring Integration Demo
 * ChannelInterceptor: channel interceptor
 * MessageChannels: builder of channel
 
+# Reactive Integration
+
+* spring-integration-rsocket: https://docs.spring.io/spring-integration/reference/html/rsocket.html#rsocket
+
+RSocket support for Spring Integration
+Spring Boot now provides auto-configuration for Spring Integration’s RSocket support.
+
+If spring-integration-rsocket is available, developers can configure an RSocket server using "spring.rsocket.server.*" properties and let it use IntegrationRSocketEndpoint or RSocketOutboundGateway components to handle incoming RSocket messages.
+
 # References
 
+* Spring Integration Home: https://spring.io/projects/spring-integration
 * Spring Tips: The Spring Integration Kotlin DSL https://www.youtube.com/watch?v=1llAwgOKjTY&feature=emb_title
+* Spring Tips: the Spring Integration Zip module and GraalVM native images with Spring Native: https://www.youtube.com/watch?v=O17OjxBLVrs
