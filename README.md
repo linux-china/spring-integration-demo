@@ -47,3 +47,4 @@ If spring-integration-rsocket is available, developers can configure an RSocket 
 * Spring Integration Home: https://spring.io/projects/spring-integration
 * Spring Tips: The Spring Integration Kotlin DSL https://www.youtube.com/watch?v=1llAwgOKjTY&feature=emb_title
 * Spring Tips: the Spring Integration Zip module and GraalVM native images with Spring Native: https://www.youtube.com/watch?v=O17OjxBLVrs
+* SEDA With Spring Integration and Apache Camel: https://www.baeldung.com/spring-apache-camel-seda-integration
